@@ -36,8 +36,7 @@ console.log(pets)
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1
 // 10 - Add two pets to your `pets` variable
-pets++
-pets++
+pets = pets + 2
 console.log(pets)
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3
@@ -45,13 +44,23 @@ const allowedPets = 3
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-
+let result = 'Adventures are great!';
+if ( adventurous ){
+  console.log( result );
+}
+else if( adventurous = false){ 
+  results = 'How about we stay home?';
+}
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
-
+let diceRoll = 'Try again later.';
+if ( luckyNumber == 2 && adventurous ){
+  diceRoll = 'Roll the dice!';
+}
+console.log( diceRoll );
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
